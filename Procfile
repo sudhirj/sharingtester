@@ -1,1 +1,1 @@
-web: bundle exec unicorn -p $PORT -c ./config/unicorn.rb
+web: bundle exec puma -t 4:8 -p $PORT -w 4
