@@ -1,14 +1,45 @@
-body {
+body, input, button {
 	font-family: 'Lato';
 }
+
 
 #header {
 	h1 {
 		text-transform: uppercase;
 	}
 }
+form {
+	margin: 0;
+}
+#analysis-bar {
+	margin: 0;
+	input {
+		width: 80%;
+	}
+	button {
+		width: 20%;
+	}
+}
 
 .signature {
 	text-align: right;
 	text-transform: uppercase;
+}
+
+.heading {
+	h4 {
+		text-transform: uppercase;
+	}
+}
+
+.line {
+	.title {
+		text-align: right;
+		font-weight: 300;
+	}
+
+	img {
+		max-width: 100%;
+		margin: 0 0;
+	}
 }
