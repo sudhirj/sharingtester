@@ -18,3 +18,15 @@ end
 
 gem 'puma'
 
+gem 'newrelic_rpm'
+
+group :development, :test do
+	gem 'rspec-rails'
+	gem 'guard-rspec'
+	gem 'pry'
+end
+
+group :test do
+	gem 'vcr'
+	gem 'webmock'
+end
