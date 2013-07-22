@@ -1,0 +1,53 @@
+
+.search-result {
+	margin-bottom: 1rem;
+}
+.google {
+	font-family: arial, sans-serif;
+	width: 528px - 16px;
+	box-sizing: border-box;
+	.title {
+		font-size: 16px;
+		text-align: left;
+		color: rgb(17, 34, 204);
+		line-height: 19px;
+		text-decoration: underline;
+	}
+	.url {
+		font-size: 14px;
+		color: rgb(0, 153, 51);
+		line-height: 16px;
+		margin-bottom: 1px;
+	}
+	.description {
+		font-size: 13px;
+		color: rgb(68, 68, 68);
+		line-height: 16px;
+	}
+}
+
+
+.bing {
+	font-family: arial, sans-serif;
+	width: 520px;
+	box-sizing: border-box;
+	.title {
+		font-size: 16px;
+		text-align: left;
+		color: rgb(17, 34, 204);
+		line-height: 19px;
+		text-decoration: underline;
+	}
+	.url {
+		font-size: 14px;
+		color: rgb(0, 153, 51);
+		line-height: 16px;
+		margin-bottom: 1px;
+	}
+	.description {
+		font-size: 13px;
+		color: rgb(68, 68, 68);
+		line-height: 16px;
+	}
+}
+
