@@ -9,19 +9,19 @@
 	.title {
 		font-size: 16px;
 		text-align: left;
-		color: rgb(17, 34, 204);
+		color: #12c;
 		line-height: 19px;
 		text-decoration: underline;
 	}
 	.url {
 		font-size: 14px;
-		color: rgb(0, 153, 51);
+		color: #093;
 		line-height: 16px;
 		margin-bottom: 1px;
 	}
 	.description {
 		font-size: 13px;
-		color: rgb(68, 68, 68);
+		color: #444;
 		line-height: 16px;
 	}
 }
@@ -34,20 +34,22 @@
 	.title {
 		font-size: 16px;
 		text-align: left;
-		color: rgb(17, 34, 204);
+		color: #639;
 		line-height: 19px;
 		text-decoration: underline;
+		padding-bottom: 2px;
 	}
 	.url {
 		font-size: 14px;
-		color: rgb(0, 153, 51);
+		color: #388222;
 		line-height: 16px;
 		margin-bottom: 1px;
 	}
 	.description {
 		font-size: 13px;
-		color: rgb(68, 68, 68);
-		line-height: 16px;
+		color: #000;
+		line-height: 1.2em;
+		word-wrap: break-word;
 	}
 }
 
