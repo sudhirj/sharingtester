@@ -2,7 +2,6 @@ body, input, button {
 	font-family: 'Lato';
 }
 
-
 #header {
 	h1 {
 		text-transform: uppercase;
@@ -27,8 +26,21 @@ form {
 }
 
 .heading {
+	margin-top: 0.618rem;
 	h4 {
 		text-transform: uppercase;
+		font-weight: 300;
+		border-bottom: thin solid rgba(0,0,0,0.1);
+		padding-bottom: 0.381em;
+		a {
+			opacity: 0.3;
+			color: inherit;
+			transition: opacity 0.3s;
+			&:hover {
+				text-decoration: none;
+				opacity: 0.6;
+			}
+		}
 	}
 }
 

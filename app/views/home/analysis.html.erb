@@ -1,8 +1,16 @@
 <%= render 'heading', heading: 'Basic Details'%>
-<%= render 'line', title: 'Title', data: @analysis.basic.title %>
-<%= render 'line', title: 'Description', data: @analysis.basic.description %>
-<%= render 'line', title: 'URL', data: @analysis.url %>
-<hr/>
+<%= render 'line', title: 'Title *', data: @analysis.basic.title %>
+<%= render 'line', title: 'Description *', data: @analysis.basic.description %>
+<%= render 'line', title: 'Final URL', data: link_to(@analysis.url, @analysis.url, {target: '_blank'}) %>
+
 <%= render 'heading', heading: 'Search Results'%>
 <%= render 'custom', title: 'Google', view: render('google')%>
 <%= render 'custom', title: 'Bing', view: render('bing')%>
+
+<%= render 'heading', heading: 'Open Graph', info: 'http://ogp.me/'%>
+<%= render 'line', title: 'Title *', data: @analysis.og.title %>
+<%= render 'line', title: 'Type *', data: @analysis.og.type %>
+<%= render 'line', title: 'Image *', data: @analysis.og.image %>
+<%= render 'line', title: 'URL *', data: link_to_if(@analysis.og_.url.present?, @analysis.og_.url, @analysis.og_.url) %>
+<%= render 'line', title: 'Description', data: @analysis.og.description %>
+<%= render 'line', title: 'Site Name', data: @analysis.og.site_name %>
