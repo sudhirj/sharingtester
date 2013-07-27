@@ -12,5 +12,8 @@
 <%= render 'line', title: 'Type *', data: @analysis.og.type %>
 <%= render 'line', title: 'Image *', data: link_to_if(@analysis.og_.image.present?, @analysis.og_.image, @analysis.og_.image, {target: '_blank'}) %>
 <%= render 'line', title: 'URL *', data: link_to_if(@analysis.og_.url.present?, @analysis.og_.url, @analysis.og_.url) %>
-<%= render 'line', title: 'Description', data: @analysis.og.description %>
-<%= render 'line', title: 'Site Name', data: @analysis.og.site_name %>
+<%= render 'line', title: 'Description', data: @analysis.og_.description %>
+<%= render 'line', title: 'Site Name', data: @analysis.og_.site_name %>
+
+<%= render 'heading', heading: 'Sharing'%>
+<%= render 'custom', title: 'Facebook', view: render('facebook')%>

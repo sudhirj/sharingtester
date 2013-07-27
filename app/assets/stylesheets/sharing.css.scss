@@ -1,0 +1,36 @@
+.facebook.stage {
+	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+	width: 500px;
+	.image {
+		width: 100px;
+		margin-right: 12px;
+		margin-bottom: 12px;
+		float: left;
+	}
+	.title {
+		font-size: 12px;
+		font-weight: bold;
+		text-align: left;
+		line-height: 15px;
+		max-width: 250px;
+	}
+	.link {
+		font-size: 11px;
+		line-height: 14px;
+		color: #666;
+	}
+	.description {
+		margin-top: 6px;
+		color: #37404e;
+		word-wrap: break-word;
+		font-size: 11px;
+		line-height: 14px;
+	}
+	.others {
+		float: left;
+		width: 388px;
+		&.noimage {
+			width: 100%;
+		}
+	}
+}

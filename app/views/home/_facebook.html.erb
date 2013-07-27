@@ -1,0 +1,11 @@
+<div class="facebook stage">
+	<% if @analysis.og_.image.present? %>
+	<div class="image"><img src="<%=@analysis.og_.image%>"/></div>
+	<% end %>
+	<div class="others <% unless @analysis.og_.image.present?%>noimage<% end %>">
+		<div class="title"><%=@analysis.og_.title.presence || @analysis.basic.title%></div>
+		<div class="link"><%=truncate(@analysis.og_.url.presence || @analysis.url, length: 35)%></div>
+		<div class="description"><%=@analysis.og_.description.presence || @analysis.basic.description%></div>
+	</div>
+	
+</div>
